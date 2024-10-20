@@ -11,6 +11,9 @@ app.use(cors(corsOptions));
 app.use(express.json());
 
 // Placeholder route
+app.get('/', (req, res) => {
+  res.send('Hello World');
+});
 const authRoute = require('./routes/auth');
 const tasksRoute = require('./routes/tasks');
 
