@@ -4,7 +4,7 @@ const app = express();
 const cors = require('cors');
 
 const corsOptions = {
-  origin: process.env.FRONTEND_URL || 'http://localhost:5173', // Front-end URL in production
+  origin: process.env.FRONTEND_URL || '*', // Front-end URL in production
   credentials: true,
 };
 app.use(cors(corsOptions));
