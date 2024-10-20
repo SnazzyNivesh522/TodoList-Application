@@ -1,8 +1,9 @@
 {
   
-  "name": "client",
+  "name": "mern-client",
+  "description": "Frontend for Todo Application",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
